@@ -1,0 +1,111 @@
+h1 {
+	font-family: 'Cinzel', serif;
+	max-width: 100%;
+	color: white;
+	font-size: 3.2em;
+	margin-bottom: 50px;
+}
+
+header {
+	padding-left: 10%;
+}
+
+h1:hover {
+	color: black;
+	background-color: white;
+	transition: 5s;
+}
+
+aside {
+	background-color: black;
+	float: left;
+	width: 17%;
+	padding-right: 3%;
+	position: fixed;
+	height: 100%
+
+}
+
+aside li {
+	color: white;
+	padding: 2%;
+	
+	padding-bottom: 10%;
+	font-size: 1.5em;
+	list-style-type: none;
+	text-align: center;
+	
+}
+
+a {
+	color: white;
+	font-family: helvetica;
+	width: 100px;
+    height: 100px;
+    text-decoration: none;
+
+}
+
+aside a:hover {
+	width: 500px;
+	background-color: red;
+	-webkit-transition: 2s;
+
+}
+
+button {
+	background-color: black;
+	color: white;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+section {
+	
+	float: right;
+	width: 75%;
+	margin-left: : 2%;
+	margin-bottom: 3%;
+	padding-left: 3%;
+	background-color: red;
+}
+
+img{
+	width: 40%;
+	float: left;
+	padding-top: 3%;
+}
+
+img:hover {
+	width: 30%;
+	-webkit-transition: 5s;
+	display: block;
+}
+
+p {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1.5em;
+	width: 50%;
+	float: right;
+	padding: 2%;
+	margin: 3%;
+}
+
+.one {
+	width:  30%;
+	padding-bottom: 10%;
+
+}
+ 
+.two {
+ 	width:  30%;
+	padding-bottom: 10%;
+	
+ }
+
+footer {
+	float: right;
+	position: fixed;
+	color: white;
+	bottom: 0;
+}
