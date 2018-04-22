@@ -1,3 +1,4 @@
+
 h1 {
 	font-family: 'Cinzel', serif;
 	max-width: 100%;
@@ -10,14 +11,19 @@ header {
 	padding-left: 10%;
 }
 
+header:hover {
+	width: 304px;
+	
+	background-color: white;
+	transition: 3s;
+}
 h1:hover {
 	color: black;
-	background-color: white;
-	transition: 5s;
+	transition: 3s;
 }
 
 aside {
-	background-color: black;
+	background-color: #c38d9d;
 	float: left;
 	width: 17%;
 	padding-right: 3%;
@@ -26,10 +32,9 @@ aside {
 
 }
 
-aside li {
+nav li {
 	color: white;
 	padding: 2%;
-	
 	padding-bottom: 10%;
 	font-size: 1.5em;
 	list-style-type: none;
@@ -46,19 +51,22 @@ a {
 
 }
 
-aside a:hover {
-	width: 500px;
-	background-color: red;
+li:hover {
+	width: 304px;
+	background-color: #40b3a2;
 	-webkit-transition: 2s;
 
 }
 
 button {
-	background-color: black;
-	color: white;
-	padding-left: 25%;
-	padding-right: 25%;
+	background-color: #fac5c1;
+	color: black;
+	font-family: 'Libre Franklin', sans-serif;
+	width: 150px;
+	border-radius: 25px;
+	
 }
+
 
 section {
 	
@@ -67,7 +75,7 @@ section {
 	margin-left: : 2%;
 	margin-bottom: 3%;
 	padding-left: 3%;
-	background-color: red;
+	background-color: #85cdca;
 }
 
 img{
@@ -83,12 +91,13 @@ img:hover {
 }
 
 p {
-	font-family: 'Didact Gothic', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;	
 	font-size: 1.5em;
 	width: 50%;
 	float: right;
 	padding: 2%;
 	margin: 3%;
+	background-color: #e8a87c;
 }
 
 .one {
